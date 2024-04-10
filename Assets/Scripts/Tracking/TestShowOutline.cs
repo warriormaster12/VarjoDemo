@@ -27,7 +27,6 @@ public class TestShowOutline : MonoBehaviour
     {
         if (body == this.gameObject)
         {
-            Debug.Log("hello");
             material.SetFloat("_Power", 2.0f);
             material.SetFloat("_Scale", 1.03f);
         }
