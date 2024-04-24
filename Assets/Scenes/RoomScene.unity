@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028326, g: 0.22571333, b: 0.30692202, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!4 &153882101 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5788168945488329846, guid: c2f552dcba6f74a669567f75fb01ab5d, type: 3}
-  m_PrefabInstance: {fileID: 6238866397614449056}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &488813053
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,68 +173,6 @@ Transform:
   - {fileID: 1890754788}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1311457631
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 153882101}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: e6e19dd17a22a46bdb9ea2014d8efe53, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6e19dd17a22a46bdb9ea2014d8efe53, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6e19dd17a22a46bdb9ea2014d8efe53, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6e19dd17a22a46bdb9ea2014d8efe53, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6e19dd17a22a46bdb9ea2014d8efe53, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6e19dd17a22a46bdb9ea2014d8efe53, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6e19dd17a22a46bdb9ea2014d8efe53, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6e19dd17a22a46bdb9ea2014d8efe53, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6e19dd17a22a46bdb9ea2014d8efe53, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: e6e19dd17a22a46bdb9ea2014d8efe53, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: e6e19dd17a22a46bdb9ea2014d8efe53, type: 3}
-      propertyPath: m_Name
-      value: varjo_room
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: e6e19dd17a22a46bdb9ea2014d8efe53, type: 3}
---- !u!4 &1311457632 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e6e19dd17a22a46bdb9ea2014d8efe53, type: 3}
-  m_PrefabInstance: {fileID: 1311457631}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1735620752
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,10 +465,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 8311270119241123057, guid: c2f552dcba6f74a669567f75fb01ab5d, type: 3}
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 5788168945488329846, guid: c2f552dcba6f74a669567f75fb01ab5d, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1311457632}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c2f552dcba6f74a669567f75fb01ab5d, type: 3}
 --- !u!1660057539 &9223372036854775807
